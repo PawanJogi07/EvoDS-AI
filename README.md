@@ -20,6 +20,19 @@
 
 ---
 
+## 🌐 Live Application
+
+🔗 **Live Demo:** https://evo-ds-ai.vercel.app
+
+⚡ **Backend API:** https://evods-ai-1.onrender.com
+
+🚀 EvoDS AI is fully deployed using Vercel (Frontend) and Render (Backend), enabling users to upload datasets, perform automated EDA, train ML models, and generate predictions in real time.
+
+
+
+
+
+
 # 📌 Overview
 
 EvoDS AI is a full-stack Automated Data Science Platform that allows users to upload datasets, generate Exploratory Data Analysis (EDA) reports, visualize insights through charts, train Machine Learning models automatically, and make predictions using the best-performing model.
@@ -105,7 +118,7 @@ Machine Learning Models
 
 ## 🏠 Dashboard
 
-![Dashboard](dataset.png)
+![Dashboard](datset.png)
 
 ---
 
@@ -135,7 +148,7 @@ Machine Learning Models
 
 ## 🔮 Prediction Result
 
-![Prediction](prediction.png)
+![Prediction](predicton.png)
 
 ---
 
