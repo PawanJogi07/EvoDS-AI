@@ -208,7 +208,7 @@ function Dashboard() {
                 >
 
                   <img
-  src={`http://127.0.0.1:8000/${chart}?t=${Date.now()}`}
+src={`https://evods-ai-1.onrender.com/${chart}?t=${Date.now()}`}
   alt={chart}
   style={{
     width: "100%",
