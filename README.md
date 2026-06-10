@@ -105,37 +105,37 @@ Machine Learning Models
 
 ## 🏠 Dashboard
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](dataset.png)
 
 ---
 
 ## 📂 Dataset Upload
 
-![Upload](assets/upload.png)
+![Upload](home.png)
 
 ---
 
 ## 📊 EDA Report
 
-![EDA](assets/eda.png)
+![EDA](clmname.png)
 
 ---
 
 ## 📈 Charts & Insights
 
-![Charts](assets/charts.png)
+![Charts](chart.png)
 
 ---
 
 ## 🤖 Model Training
 
-![Training](assets/train_model.png)
+![Training](train.png)
 
 ---
 
 ## 🔮 Prediction Result
 
-![Prediction](assets/prediction.png)
+![Prediction](prediction.png)
 
 ---
 
@@ -196,87 +196,6 @@ Prediction
 
 ---
 
-# 📂 Project Structure
-
-```text
-EvoDS-AI
-│
-├── frontend
-│   ├── src
-│   ├── components
-│   ├── pages
-│   └── services
-│
-├── backend
-│   ├── routes
-│   ├── services
-│   ├── uploads
-│   ├── reports
-│   └── models
-│
-├── assets
-│
-└── README.md
-```
-
----
-
-# ⚙️ Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/PawanJogi07/EvoDS-AI.git
-cd EvoDS-AI
-```
-
-## Backend Setup
-
-```bash
-cd backend
-
-pip install -r requirements.txt
-
-uvicorn main:app --reload
-```
-
-Backend runs at:
-
-```text
-http://127.0.0.1:8000
-```
-
----
-
-## Frontend Setup
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
-Frontend runs at:
-
-```text
-http://localhost:5173
-```
-
----
-
-# 🌐 Deployment
-
-## Frontend
-
-Deployed using Vercel
-
-## Backend
-
-Deployed using Render
-
----
 
 # 🎯 Use Cases
 
@@ -302,31 +221,13 @@ Deployed using Render
 
 ---
 
-# 👨‍💻 Developer
-
-### Pawan Jogi
-
-B.Tech Student | Data Analytics & AI Enthusiast
-
-* Python
-* Machine Learning
-* Data Analytics
-* FastAPI
-* React.js
 
 GitHub:
 https://github.com/PawanJogi07
 
 ---
 
-# ⭐ Support
-
-If you found this project useful, consider giving it a star ⭐ on GitHub.
-
-It helps support future development and motivates further improvements.
-
----
-
+# ⭐
 <p align="center">
   <strong>Built with ❤️ using FastAPI, React, Pandas & Scikit-Learn</strong>
 </p>
