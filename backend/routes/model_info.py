@@ -1,13 +1,18 @@
 from fastapi import APIRouter
 import joblib
+import os
 
 router = APIRouter()
-
 
 @router.get("/model-info")
 async def model_info():
 
-    columns = joblib.load(
+    if not os.path.exists("models/original_features.pkl"):
+        return {
+            "error": "No trained model found. Please train a model first."
+        }
+
+    features = joblib.load(
         "models/original_features.pkl"
     )
 
@@ -17,5 +22,5 @@ async def model_info():
 
     return {
         "target": target,
-        "features": columns
+        "features": features
     }
